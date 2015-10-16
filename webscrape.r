@@ -3,7 +3,7 @@ library(choroplethr)
 library(choroplethrMaps)
 library(countrycode)
 library(dplyr)
-library(ggplot)
+library(ggplot2)
 library(stringr)
 library(reshape2)
 
@@ -13,6 +13,7 @@ library(reshape2)
 #scrape web data on some country stats
 #physicians per 100k population from WHO
 #HRH_26 is the physician field
+data("country.regions")
 urltxt<-"http://apps.who.int/gho/athena/data/xmart.csv?target=GHO/HRH_26&profile=xmart&filter=COUNTRY:*"
 rawCSV<-read.csv(urltxt, header = T,stringsAsFactors = F)
 doctorsRaw<-rawCSV[,c("YEAR","COUNTRY","Numeric")]
