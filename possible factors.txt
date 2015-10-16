@@ -1,0 +1,17 @@
+#possible factors
+
+GDP Level
+Per Capita GDP
+GDP Growth (10Y)
+FX Vol (5y)
+Rate Vol (10 Y Local)
+Rate Level (10Y)
+Rate Level (Short)
+Equity Vol(5y)
+Inflation (1y)
+Public Debt (GDP %)
+External Debt (GDP %)
+Current Account (GDP %)
+Unemployment Rate
+Credit Rating
+Economic Freedom Index
